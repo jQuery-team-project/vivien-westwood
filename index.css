@@ -137,7 +137,7 @@ header .header-nav .global-menu li {
   font-family: "Abhaya Libre", serif;
   font-size: 87px;
   text-transform: uppercase;
-  color: #fff;
+  color: #FFF9EC;
   position: absolute;
   z-index: 999;
 }
@@ -286,7 +286,7 @@ header .header-nav .global-menu li {
 }
 
 .introduction .intro_text_wrapper p {
-  font-size: 55px;
+  /* font-size: 55px; */
   text-align: left;
   width: 76%;
   color: #fff;
@@ -317,10 +317,9 @@ header .header-nav .global-menu li {
   .product_slide .section_top .sun {
     width: 40%;
   }
-
-  /* .forest {
-    height: 60vh;
-  } */
+  .introduction .intro_text_wrapper p {
+    font-size: 45px;
+  }
 }
 
 @media all and (max-width: 1600px) and (min-width: 1201px) {
@@ -337,10 +336,9 @@ header .header-nav .global-menu li {
   .product_slide .section_top .sun {
     width: 28%;
   }
-
- /*  .forest {
-    height: 70vh;
-  } */
+  .introduction .intro_text_wrapper p {
+    font-size: 55px;
+  }
 }
 
 @media all and (min-width: 1601px) {
@@ -357,10 +355,9 @@ header .header-nav .global-menu li {
   .product_slide .section_top .sun {
     width: 30%;
   }
-  
-/*   .forest {
-    height: 80vh;
-  } */
+  .introduction .intro_text_wrapper p {
+    font-size: 55px;
+  }
 }
 
 /*** horizontal ***/
@@ -369,7 +366,7 @@ header .header-nav .global-menu li {
   background-color: #243029;
   font-weight: 800;
   text-transform: uppercase;
-  color: #fff;
+  color: #FFF9EC;
   display: flex;
   padding: 153px 0 280px 0;
   text-align: left;
@@ -379,7 +376,7 @@ header .header-nav .global-menu li {
   font-family: "Abhaya Libre", serif;
   margin: 0;
   overflow-x: hidden;
-  color: #fff;
+  color: #FFF9EC;
   background-color: #243029;
   text-transform: uppercase;
 }
@@ -630,7 +627,7 @@ header .header-nav .global-menu li {
 .product_slide {
   font-family: "Abhaya Libre", serif;
   background-color: #243029;
-  color: #fff;
+  color: #FFF9EC;
   text-transform: uppercase;
   text-align: left;
 }
