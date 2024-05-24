@@ -56,12 +56,6 @@
     display: block;
   }
 
-  main .product-list .main-products ul li:hover h3,
-  main .product-list .sub-products ul li:hover h3 {
-    text-decoration-line: underline;
-  }
-
-
   /*** 서브 상품 ***/
   main .product-list .sub-products ul {
     grid-template-columns: repeat(4, 1fr);
@@ -69,20 +63,14 @@
     gap: 15px;
   }
 
-  main .product-list .sub-products ul li img {
-    cursor: pointer;
-  }
-
   main .product-list .sub-products ul li h3 {
     font-size: 18px;
     padding-top: 10px;
     padding-bottom: 3px;
-    cursor: pointer;
   }
 
   main .product-list .sub-products ul li p {
     font-size: 14px;
     padding-bottom: 30px;
-    cursor: pointer;
   }
 }
