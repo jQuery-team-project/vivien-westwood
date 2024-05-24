@@ -4,7 +4,7 @@ gsap.registerPlugin(ScrollTrigger, TextPlugin);
 gsap.to(".main-model", {
   scale: 1,
   scrollTrigger: {
-    trigger: ".main_img_wrapper",
+    trigger: ".main-img-wrapper",
     start: "top 80vh",
     end: "1800px 50%",
     scrub: true,
@@ -117,7 +117,7 @@ gsap.to(".fixed2", {
 
 // ================================================best-collection======================================
 
-const total = document.querySelector(".horizontal_scroll");
+const total = document.querySelector(".horizontal-scroll");
 console.log(total.offsetWidth)
 
 function getScrollAmount() {
@@ -146,7 +146,7 @@ ScrollTrigger.create({
 // ========================horizontal================================
 gsap.to(".sun", {
   scrollTrigger: {
-    trigger: ".product_slide",
+    trigger: ".product-slide",
     start: "top 50%",
     scrub: true,
     markers: false,
@@ -178,39 +178,39 @@ document.addEventListener("DOMContentLoaded", () => {
 
 // ========================slider================================
 gsap.fromTo(
-  '.gallery_group1 svg',
+  '.gallery-group1 svg',
   {opacity: 0.2 },
   { 
     opacity: 1,
     duration: 0.5,
     scrollTrigger: {
-      trigger: '.gallery_group1 .first',
+      trigger: '.gallery-group1 .first',
       start: 'bottom center',
       toggleActions: 'play none none reverse'
     },
   }
 );
 gsap.fromTo(
-  '.gallery_group2 svg',
+  '.gallery-group2 svg',
   {opacity: 0.2 },
   { 
     opacity: 1,
     duration: 0.5,
     scrollTrigger: {
-      trigger: '.gallery_group2 .first',
+      trigger: '.gallery-group2 .first',
       start: 'bottom center',
       toggleActions: 'play none none reverse'
     },
   }
 );
 gsap.fromTo(
-  '.gallery_group3 svg',
+  '.gallery-group3 svg',
   {opacity: 0.2 },
   { 
     opacity: 1,
     duration: 0.5,
     scrollTrigger: {
-      trigger: '.gallery_group3 .first',
+      trigger: '.gallery-group3 .first',
       start: 'bottom center',
       toggleActions: 'play none none reverse'
     },
@@ -241,7 +241,7 @@ gsap.utils.toArray('.rolled-over-txt').forEach((txt) => {
 });
 
 // ========================gallery================================
-gsap.to(".left_animation", {
+gsap.to(".left-animation", {
   backgroundPosition: "top 0 left -20%, top 0 right -100%, bottom 0 left 50%", // Targeting the second background image to move vertically
   ease: "none", 
   scrollTrigger: {
