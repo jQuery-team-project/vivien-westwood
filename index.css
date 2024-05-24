@@ -219,10 +219,12 @@ header .header-nav .global-menu li {
 .best_collection .best_collection_top .title h2 {
   font-size: 60px;
   color: #374B3F;
+  z-index: 999;
 }
 
 .best_collection .best_collection_top .title>img {
   width: 100%;
+  z-index: 99;
 }
 
 .best_collection .text {
