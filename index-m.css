@@ -184,6 +184,10 @@
     font-size: 20px;
   }
 
+  .hsWrapper .horizontal-scroll {
+    display: block;
+  }
+
   .hs-part1,
   .hs-part2,
   .hs-part3 {
@@ -216,6 +220,11 @@
   .hsWrapper .horizontal-scroll .hs-part2 .text-wrapper img,
   .hsWrapper .horizontal-scroll .hs-part3 .text-wrapper img {
     display: none;
+  }
+
+  .hsWrapper .horizontal-scroll .hs-part3 .text-wrapper p {
+    width: 100%;
+    text-align: center;
   }
 
   /*** artbook ***/
